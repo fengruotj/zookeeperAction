@@ -7,11 +7,12 @@ import org.apache.zookeeper.Watcher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
 /**
  * locate com.com.basic.lockjk
  * Created by 79875 on 2017/6/6.
  */
-public class LockWatcher implements Watcher{
+public class LockWatcher implements Watcher {
     public static final Logger logger= LoggerFactory.getLogger(LockWatcher.class);
     private String waitPath;
     private DistributedLock distributedLock;
