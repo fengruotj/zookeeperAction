@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javaAPI:war">
+    <output-path>$PROJECT_DIR$/javaAPI/target</output-path>
+    <root id="archive" name="zookeeperAction.war">
+      <element id="artifact" artifact-name="javaAPI:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zookeeperAction" />
+        <module name="actionBefore" />
+        <module name="javaAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="zookeeperAction" target="1.7" />
+      <module name="actionBefore" target="1.8" />
+      <module name="javaAPI" target="1.8" />
+      <module name="zookeeperAction" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
