@@ -76,7 +76,11 @@ public class SimlpeZkClient {
         Thread.sleep(Long.MAX_VALUE);
     }
 
-    //判断znode节点是否存在
+    /**
+     * 判断znode节点是否存在
+     * @throws KeeperException
+     * @throws InterruptedException
+     */
     @Test
     public void testExists() throws KeeperException, InterruptedException {
         //Stat 为数据节点元数据信息
@@ -84,7 +88,11 @@ public class SimlpeZkClient {
         System.out.println("数据节点/TJ 是否存在: "+exists==null?"false":"true");
     }
 
-    //获取znode数据
+    /**
+     * 获取znode数据
+     * @throws KeeperException
+     * @throws InterruptedException
+     */
     @Test
     public void getData() throws KeeperException, InterruptedException {
         //参数设置为true，表示监听当前数据节点数据改变的监听事件
