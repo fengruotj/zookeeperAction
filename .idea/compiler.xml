@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="actionBefore" />
+        <module name="distributedServer" />
         <module name="javaAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="actionBefore" target="1.8" />
+      <module name="distributedServer" target="1.8" />
       <module name="javaAPI" target="1.8" />
       <module name="zookeeperAction" target="1.8" />
     </bytecodeTargetLevel>
