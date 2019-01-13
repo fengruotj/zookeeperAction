@@ -6,10 +6,10 @@
   <artifactId>zookeeperAction</artifactId>
   <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>actionBefore</module>
-        <module>javaAPI</module>
-        <module>distributedServer</module>
-        <module>distributedLock</module>
+        <module>zookeeper-rpc</module>
+        <module>zookeeper-javaAPI</module>
+        <module>zookeeper-distributedServer</module>
+        <module>zookeeper-distributedLock</module>
     </modules>
     <packaging>pom</packaging>
 

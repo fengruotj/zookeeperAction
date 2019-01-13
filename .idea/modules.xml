@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/actionBefore/actionBefore.iml" filepath="$PROJECT_DIR$/actionBefore/actionBefore.iml" />
-      <module fileurl="file://$PROJECT_DIR$/distributedLock/distributedLock.iml" filepath="$PROJECT_DIR$/distributedLock/distributedLock.iml" />
-      <module fileurl="file://$PROJECT_DIR$/distributedServer/distributedServer.iml" filepath="$PROJECT_DIR$/distributedServer/distributedServer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaAPI/javaAPI.iml" filepath="$PROJECT_DIR$/javaAPI/javaAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-distributedLock/zookeeper-distributedLock.iml" filepath="$PROJECT_DIR$/zookeeper-distributedLock/zookeeper-distributedLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-distributedServer/zookeeper-distributedServer.iml" filepath="$PROJECT_DIR$/zookeeper-distributedServer/zookeeper-distributedServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-javaAPI/zookeeper-javaAPI.iml" filepath="$PROJECT_DIR$/zookeeper-javaAPI/zookeeper-javaAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-rpc/zookeeper-rpc.iml" filepath="$PROJECT_DIR$/zookeeper-rpc/zookeeper-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeperAction.iml" filepath="$PROJECT_DIR$/zookeeperAction.iml" />
     </modules>
   </component>

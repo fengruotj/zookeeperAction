@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="actionBefore" />
-        <module name="distributedLock" />
-        <module name="distributedServer" />
-        <module name="javaAPI" />
+        <module name="zookeeper-distributedLock" />
+        <module name="zookeeper-distributedServer" />
+        <module name="zookeeper-javaAPI" />
+        <module name="zookeeper-rpc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +17,10 @@
       <module name="distributedLock" target="1.8" />
       <module name="distributedServer" target="1.8" />
       <module name="javaAPI" target="1.8" />
+      <module name="zookeeper-distributedLock" target="1.8" />
+      <module name="zookeeper-distributedServer" target="1.8" />
+      <module name="zookeeper-javaAPI" target="1.8" />
+      <module name="zookeeper-rpc" target="1.8" />
       <module name="zookeeperAction" target="1.8" />
     </bytecodeTargetLevel>
   </component>
