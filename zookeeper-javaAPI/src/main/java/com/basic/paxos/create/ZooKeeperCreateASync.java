@@ -1,7 +1,7 @@
 package com.basic.paxos.create;
 
+import com.basic.common.Constant;
 import org.apache.zookeeper.*;
-import org.apache.zookeeper.Watcher.Event.KeeperState;
 import org.apache.zookeeper.ZooDefs.Ids;
 
 import java.util.concurrent.CountDownLatch;
@@ -13,8 +13,8 @@ public class ZooKeeperCreateASync implements Watcher {
 
     public static void main(String[] args) throws Exception{
         
-	 ZooKeeper zookeeper = new ZooKeeper("domain1.book.zookeeper:2181", 
-				5000, //
+	 ZooKeeper zookeeper = new ZooKeeper(Constant.ZK_CONNECT_STRING,
+			 Constant.ZK_SESSION_TIMEOUT, //
 				new ZooKeeperCreateASync());
 	 connectedSemaphore.await();
 	    

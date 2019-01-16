@@ -1,10 +1,9 @@
 package com.basic.paxos.delete;
+
 import com.basic.common.Constant;
-import org.apache.zookeeper.WatchedEvent;
-import org.apache.zookeeper.Watcher;
+import org.apache.zookeeper.*;
 import org.apache.zookeeper.Watcher.Event.EventType;
 import org.apache.zookeeper.Watcher.Event.KeeperState;
-import org.apache.zookeeper.ZooKeeper;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -22,7 +21,7 @@ public class DeleteSync implements Watcher {
 				new DeleteSync());
     	connectedSemaphore.await();
 
-    	//zk.create( path, "".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL );
+    	zk.create( path, "".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL );
     	zk.delete( path, -1 );
     	
     	Thread.sleep( Integer.MAX_VALUE );
