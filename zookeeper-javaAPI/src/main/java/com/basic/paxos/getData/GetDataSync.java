@@ -34,6 +34,7 @@ public class GetDataSync implements Watcher {
         
         Thread.sleep( Integer.MAX_VALUE );
     }
+
     public void process(WatchedEvent event) {
         if (KeeperState.SyncConnected == event.getState()) {
   	      if (EventType.None == event.getType() && null == event.getPath()) {

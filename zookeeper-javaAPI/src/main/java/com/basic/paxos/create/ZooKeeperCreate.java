@@ -32,8 +32,10 @@ public class ZooKeeperCreate implements Watcher {
         System.out.println("Success create znode: " + path2);
     }
     public void process(WatchedEvent event) {
-        if (KeeperState.SyncConnected == event.getState()) {
-            connectedSemaphore.countDown();
+        if (Event.KeeperState.SyncConnected == event.getState()) {
+            if (Event.EventType.None == event.getType() && null == event.getPath()) {
+                connectedSemaphore.countDown();
+            }
         }
     }
 }
