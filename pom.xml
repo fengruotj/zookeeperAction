@@ -10,6 +10,7 @@
         <module>zookeeper-javaAPI</module>
         <module>zookeeper-distributedServer</module>
         <module>zookeeper-distributedLock</module>
+        <module>zookeeper-curatorAPI</module>
         <module>zookeeper-zkClientAPI</module>
     </modules>
     <packaging>pom</packaging>
