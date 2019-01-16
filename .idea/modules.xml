@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/zookeeper-distributedServer/zookeeper-distributedServer.iml" filepath="$PROJECT_DIR$/zookeeper-distributedServer/zookeeper-distributedServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-javaAPI/zookeeper-javaAPI.iml" filepath="$PROJECT_DIR$/zookeeper-javaAPI/zookeeper-javaAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-rpc/zookeeper-rpc.iml" filepath="$PROJECT_DIR$/zookeeper-rpc/zookeeper-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-zkClientAPI/zookeeper-zkClientAPI.iml" filepath="$PROJECT_DIR$/zookeeper-zkClientAPI/zookeeper-zkClientAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeperAction.iml" filepath="$PROJECT_DIR$/zookeeperAction.iml" />
     </modules>
   </component>

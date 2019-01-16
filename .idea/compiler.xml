@@ -10,6 +10,7 @@
         <module name="zookeeper-distributedServer" />
         <module name="zookeeper-javaAPI" />
         <module name="zookeeper-rpc" />
+        <module name="zookeeper-zkClientAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="zookeeper-distributedServer" target="1.8" />
       <module name="zookeeper-javaAPI" target="1.8" />
       <module name="zookeeper-rpc" target="1.8" />
+      <module name="zookeeper-zkClientAPI" target="1.8" />
       <module name="zookeeperAction" target="1.8" />
     </bytecodeTargetLevel>
   </component>
