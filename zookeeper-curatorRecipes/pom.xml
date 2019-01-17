@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>zookeeper-curatorAPI</artifactId>
+    <artifactId>zookeeper-curatorRecipes</artifactId>
 
-    <name>zookeeper-curatorAPI</name>
+    <name>zookeeper-curatorRecipes</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -34,6 +34,14 @@
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-recipes</artifactId>
             <version>4.1.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-test -->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-test</artifactId>
+            <version>4.1.0</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>

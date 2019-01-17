@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zookeeper-curatorAPI" />
+        <module name="zookeeper-curatorRecipes" />
         <module name="zookeeper-distributedLock" />
         <module name="zookeeper-distributedServer" />
         <module name="zookeeper-javaAPI" />
@@ -20,6 +21,7 @@
       <module name="distributedServer" target="1.8" />
       <module name="javaAPI" target="1.8" />
       <module name="zookeeper-curatorAPI" target="1.8" />
+      <module name="zookeeper-curatorRecipes" target="1.8" />
       <module name="zookeeper-distributedLock" target="1.8" />
       <module name="zookeeper-distributedServer" target="1.8" />
       <module name="zookeeper-javaAPI" target="1.8" />

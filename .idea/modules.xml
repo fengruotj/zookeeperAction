@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/zookeeper-curatorAPI/zookeeper-curatorAPI.iml" filepath="$PROJECT_DIR$/zookeeper-curatorAPI/zookeeper-curatorAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-curatorRecipes/zookeeper-curatorRecipes.iml" filepath="$PROJECT_DIR$/zookeeper-curatorRecipes/zookeeper-curatorRecipes.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-distributedLock/zookeeper-distributedLock.iml" filepath="$PROJECT_DIR$/zookeeper-distributedLock/zookeeper-distributedLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-distributedServer/zookeeper-distributedServer.iml" filepath="$PROJECT_DIR$/zookeeper-distributedServer/zookeeper-distributedServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-javaAPI/zookeeper-javaAPI.iml" filepath="$PROJECT_DIR$/zookeeper-javaAPI/zookeeper-javaAPI.iml" />

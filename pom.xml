@@ -12,6 +12,7 @@
         <module>zookeeper-distributedLock</module>
         <module>zookeeper-curatorAPI</module>
         <module>zookeeper-zkClientAPI</module>
+        <module>zookeeper-curatorRecipes</module>
     </modules>
     <packaging>pom</packaging>
 
